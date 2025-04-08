@@ -2,7 +2,6 @@
 import React from "react";
 import { Calendar, CheckCircle } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { formatTimeToMinutes } from "../utils/timeUtils";
 import { Stats } from "../types";
 
 interface StatsSectionProps {
